@@ -1,0 +1,35 @@
+.post {
+  padding: 10px 10%;
+
+  section {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 5px;
+    width: 100%;
+    @media (min-width: 600px) { width: 49%; }
+  }
+
+  .thumbnail { width: 100%; }
+  .thumbnail-wrapper {
+    background: #fff;
+    max-width: 400px;
+  }
+
+  h1 { margin: 0; }
+  article { font-size: 1.2em; }
+  img { max-width: 100%; }
+
+  dt {
+    float: left;
+    font-weight: bold;
+    padding-right: 5px;
+  }
+
+  .chevrons {
+    font-size: 1.3em;
+    margin: 15px 0 -15px;
+  }
+  .glyphicon-chevron-left,
+  .glyphicon-chevron-right { cursor: pointer; }
+  .glyphicon-chevron-right { float: right; }
+}

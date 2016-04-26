@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<main class="index">
+  <nav class="sort-nav">
+    <span onclick="sort('alphabetical')">Alphabetical</span>
+    &bull;
+    <span onclick="sort('latest')">Latest</span>
+    &bull;
+    <span onclick="sort('popularity')">Popularity</span>
+    &bull;
+    <span onclick="sort('shuffle')">Shuffle</span>
+  </nav>
+
+  <ul id="index-list">
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <img src="{{ site.baseurl }}/assets/transparent.png"
+             data-echo="{{ site.cdn }}/thumbnails/{{ post.thumbnail }}">
+        <div>{{ post.title }}</div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</main>

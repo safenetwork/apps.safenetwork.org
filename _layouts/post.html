@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<main class="post">
+  <section class="thumbnail-wrapper">
+    <img src="{{ page.thumbnail | prepend: '/thumbnails/' | prepend: site.baseurl }}" class="thumbnail">
+  </section>
+  <section>
+    <h1>{{ page.title }}</h1>
+    <dl>
+      {% if page.author %}
+        <dt>Author:</dt>
+        <dd>{{ page.author }}</dd>
+      {% endif %}
+      {% if page.license %}
+        <dt>License:</dt>
+        <dd>{{ page.license }}</dd>
+      {% endif %}
+    </dl>
+    <nav>
+    {% if page.website %}
+      <a class="btn" href="{{ page.website }}">
+        <i class="fa fa-home"></i> Website
+      </a>
+    {% endif %}
+    {% if page.download %}
+      <a class="btn" href="{{ page.download }}">
+        <i class="fa fa-download"></i> Download
+      </a>
+    {% endif %}
+    {% if page.github %}
+      <a class="btn" href="{{ page.github }}">
+        <i class="fa fa-github"></i> GitHub
+      </a>
+    {% endif %}
+    {% if page.twitter %}
+      <a class="btn" href="{{ page.twitter }}">
+        <i class="fa fa-twitter"></i> Twitter
+      </a>
+    {% endif %}
+    {% if page.forum %}
+      <a class="btn" href="{{ page.forum }}">
+        <i class="fa fa-comments"></i> Forum
+      </a>
+    {% endif %}
+    {% if page.announcement %}
+      <a class="btn" href="{{ page.announcement }}">
+        <i class="fa fa-bullhorn"></i> Announcement
+      </a>
+    {% endif %}
+    {% if page.license_link %}
+      <a class="btn" href="{{ page.license_link }}">
+        <i class="fa fa-file"></i> License
+      </a>
+    {% endif %}
+    </nav>
+  </section>
+  <div class="chevrons">
+    <i class="glyphicon glyphicon-chevron-left"
+       onclick="previous('{{ page.title }}')"></i>
+    <i class="glyphicon glyphicon-chevron-right"
+       onclick="next('{{ page.title }}')"></i>
+  </div>
+  <hr />
+  <article>
+    {{ content }}
+  </article>
+</main>
