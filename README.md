@@ -1,11 +1,9 @@
-SAFE Network Apps
-=================
+# SAFE Network Apps
 
 A directory of the most popular SAFE Network apps
 
 
-Submitting an App
------------------
+## Submitting an App
 
 Want to submit an app?
 
@@ -15,8 +13,14 @@ Want to submit an app?
 * Test it out with the command `bundle exec jekyll serve --config _config-dev.yml`
 * When you're happy, push your changes up and open a pull request.
 
+## Contributing to apps.safenetwork.org
 
-License
--------
+By contributing to this project, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
-The contents of this repository are licensed under the [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl-3.0.html).
+## Credits
+
+The layout was inspired by https://github.com/jekyllrc/jekyllthemes.
+
+## Public domain
+
+This project is [dedicated to the public domain](https://github.com/safenetwork/apps.safenetwork.org/blob/gh-pages/LICENSE.md) under the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
