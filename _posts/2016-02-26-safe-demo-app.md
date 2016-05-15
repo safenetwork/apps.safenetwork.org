@@ -6,7 +6,7 @@ github: https://github.com/maidsafe/safe_examples/tree/master/demo_app
 twitter: https://twitter.com/maidsafe
 announcement: https://forum.safenetwork.io/t/safe-network-client-testing-commences/7373
 author: MaidSafe
-thumbnail: safe-demo-app.png
+thumbnail: maidsafe_demo_app-v0.2.2.png
 license: GNU General Public License v3.0
 license_link: https://github.com/maidsafe/safe_examples/blob/master/demo_app/COPYING
 github_repo: maidsafe/safe_examples
