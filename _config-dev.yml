@@ -4,7 +4,7 @@ url: 'https://apps.safenetwork.org'
 baseurl: ''
 github: 'https://github.com/safenetwork/apps.safenetwork.org'
 permalink: /:title/
-markdown: rdiscount
+markdown: kramdown
 cdn: ''
 gems:
   - jekyll-sitemap
