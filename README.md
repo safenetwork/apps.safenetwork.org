@@ -1,4 +1,4 @@
-# SAFE Network Apps
+# apps.safenetwork.org
 
 A directory of the most popular SAFE Network apps
 
@@ -15,7 +15,7 @@ Want to submit an app?
 
 ## Contributing to apps.safenetwork.org
 
-By contributing to this project, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+By contributing to this website, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ## Credits
 
@@ -23,4 +23,4 @@ The layout was inspired by https://github.com/jekyllrc/jekyllthemes.
 
 ## Public domain
 
-This project is [dedicated to the public domain](https://github.com/safenetwork/apps.safenetwork.org/blob/gh-pages/LICENSE.md) under the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+This website is [dedicated to the public domain](https://github.com/safenetwork/apps.safenetwork.org/blob/gh-pages/LICENSE.md) under the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
