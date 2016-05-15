@@ -25,3 +25,5 @@ defaults:
       type: posts
     values:
       layout: post
+kramdown:
+  input: GFM
