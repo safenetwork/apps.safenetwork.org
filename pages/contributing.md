@@ -4,7 +4,9 @@ title: Contributing
 permalink: /contributing/
 ---
 
-## Submitting an App
+By contributing to this website, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+
+### Submitting an App
 
 Want to submit an app?
 

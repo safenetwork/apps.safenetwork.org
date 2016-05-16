@@ -2,7 +2,11 @@
 
 > A directory of the most popular SAFE Network apps.
 
-## Submitting an App
+## Contributing
+
+By contributing to this website, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+
+### Submitting an App
 
 Want to submit an app?
 
@@ -15,9 +19,7 @@ Want to submit an app?
 
 \* We recommend using [Bundler](http://bundler.io/) to install and run Jekyll. To install Bundler, you must install [Ruby](https://www.ruby-lang.org/en/). [Click here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#requirements) for more info.
 
-## Contributing
 
-By contributing to this website, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ## Credits
 
