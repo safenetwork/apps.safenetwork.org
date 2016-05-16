@@ -5,7 +5,6 @@ baseurl: ''
 github: 'https://github.com/safenetwork/apps.safenetwork.org'
 permalink: /:title/
 markdown: kramdown
-cdn: 'https://cdn.rawgit.com/safenetwork/apps.safenetwork.org/gh-pages'
 gems:
   - jekyll-sitemap
   - jekyll-feed
