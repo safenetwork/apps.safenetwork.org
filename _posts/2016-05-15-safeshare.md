@@ -20,5 +20,3 @@ Please note that you will need the 0.4.5 Safe Network launcher to be able to acc
 The UI and main functionality is derived from Up1 ( which also powers https://share.riseup.net btw ) - and the Safe Network facing part is Safenet by @eblanshey .
 
 The source is available here : https://github.com/wrnice/safeshare
-
-
