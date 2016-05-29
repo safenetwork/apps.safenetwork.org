@@ -1,14 +1,14 @@
 ---
-title: safeShare
+title: SafeShare
+download: http://safe.share.safenet
 github: https://github.com/wrnice/safeshare
-website: http://safe.share.safenet
-announcement: https://forum.safenetwork.io/t/poc-introducing-safeshare-a-file-sharing-and-pasting-webapp/9486/2
-author: wrnice
+announcement: https://forum.safenetwork.io/t/poc-introducing-safeshare-a-file-sharing-and-pasting-webapp/9486
+author: nice
 thumbnail: safeshare.png
 license: MIT
 license_link: https://github.com/wrnice/safeshare/blob/master/LICENSE
-github_repo: 
-stars: 0
+github_repo: wrnice/safeshare
+stars: 1
 ---
 
 ## A file sharing and text paste web application for the Safe Network
@@ -18,5 +18,3 @@ The main purpose of the application is to easily produce safe links to uploaded 
 Please note that you will need the 0.4.5 Safe Network launcher to be able to access this web app.
 
 The UI and main functionality is derived from Up1 ( which also powers https://share.riseup.net btw ) - and the Safe Network facing part is Safenet by @eblanshey .
-
-The source is available here : https://github.com/wrnice/safeshare

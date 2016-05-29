@@ -1,4 +1,4 @@
-var transparentImage = '{{ site.baseurl }}/assets/transparent.png';
+var transparentImage = '/assets/transparent.png';
 var indexList = document.getElementById('index-list');
 if(indexList) { sort('loadOrder'); }
 

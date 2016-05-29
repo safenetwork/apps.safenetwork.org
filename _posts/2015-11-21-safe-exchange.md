@@ -10,7 +10,7 @@ thumbnail: safe-exchange.png
 license: GNU General Public License v3.0
 license_link: https://github.com/safex/safex/blob/master/LICENSE
 github_repo: safex/safex
-stars: 7
+stars: 8
 ---
 
 ## Decentralized Contract Market Platform

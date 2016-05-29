@@ -5,8 +5,8 @@ var themes = [
   {
     "title": "{{ theme.title }}",
     "date": "{{ theme.date }}",
-    "thumbnail": "{{ site.baseurl }}/thumbnails/{{ theme.thumbnail }}",
-    "url": "{{ site.baseurl }}{{ theme.url }}",
+    "thumbnail": "/thumbnails/{{ theme.thumbnail }}",
+    "url": "{{ theme.url }}",
     "stars": "{{ theme.stars }}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}

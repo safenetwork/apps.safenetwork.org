@@ -10,7 +10,7 @@ thumbnail: safepress.png
 license: GNU General Public License v3.0
 license_link: https://github.com/theWebalyst/safepress/blob/master/LICENSE
 github_repo: theWebalyst/safepress
-stars: 15
+stars: 16
 ---
 
 ## WordPress for SAFE Network

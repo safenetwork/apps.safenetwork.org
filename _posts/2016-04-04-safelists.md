@@ -9,7 +9,7 @@ thumbnail: safelists.png
 license: GNU General Public License v2.0
 license_link: https://github.com/davidkazlauskas/safelists/blob/master/LICENSE.md
 github_repo: davidkazlauskas/safelists
-stars: 1
+stars: 2
 ---
 
 ## Replacement for torrents (using the SAFE Network)

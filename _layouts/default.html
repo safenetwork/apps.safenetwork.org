@@ -9,17 +9,17 @@ layout: compress
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ site.name }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+    <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
-    <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
+    <link href="{{ page.url | replace: 'index.html', '' | prepend: site.url }}" rel="canonical">
 
-    <meta property="og:title" content="{{ site.name }}{% if page.title %} | {{ page.title }}{% endif %}">
+    <meta property="og:title" content="{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}">
     <meta property="og:description" content="{{ site.description }}">
-    <meta property="og:url" content="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:url" content="{{ page.url | replace: 'index.html', '' | prepend: site.url }}">
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ '/assets/app.css' }}" rel="stylesheet">
 
     <!--[if lte IE 8]>
       <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -28,20 +28,20 @@ layout: compress
   </head>
   <body>
     <header>
-      <a href="{{ site.baseurl }}/">
-        <h1 id="logo">{{ site.name }}</h1>
+      <a href="/">
+        <h1 id="logo">{{ site.title }}</h1>
       </a>
       <nav role="navigation">
         <ul>
-          <li><a href="{{ '/contributing' | prepend: site.baseurl }}">Contributing</a></li>
+          <li><a href="{{ '/contributing/' }}">Contributing</a></li>
           &bull;
           <li><a href="{{ site.github }}" target="_blank">GitHub</a></li>
           &bull;
-          <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a></li>
+          <li><a href="{{ '/feed.xml' }}">RSS</a></li>
         </ul>
       </nav>
     </header>
     {{ content }}
-    <script src="{{ '/assets/app.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/assets/app.js' }}"></script>
   </body>
 </html>
