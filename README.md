@@ -19,11 +19,9 @@ Want to submit an app?
 
 \* GitHub recommends using [Bundler](https://bundler.io/) to install and run Jekyll. [Click here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#requirements) for more info.
 
-
-
 ## Credits
 
-The layout was inspired by https://github.com/jekyllrc/jekyllthemes.
+The layout was inspired by [themes.jekyllrc.org](http://themes.jekyllrc.org/).
 
 ## Public domain
 
