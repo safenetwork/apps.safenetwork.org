@@ -1,7 +1,7 @@
 ---
 title: safeShare
 github: https://github.com/wrnice/safeshare
-website: http://safe.share.safenet
+website: http://safeshare.safenet
 announcement: https://forum.safenetwork.io/t/poc-introducing-safeshare-a-file-sharing-and-pasting-webapp/9486/2
 author: wrnice
 thumbnail: safeshare.png
