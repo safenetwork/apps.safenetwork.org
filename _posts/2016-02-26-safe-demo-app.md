@@ -10,7 +10,7 @@ thumbnail: maidsafe_demo_app-v0.2.2.png
 license: GNU General Public License v3.0
 license_link: https://github.com/maidsafe/safe_examples/blob/master/demo_app/COPYING
 github_repo: maidsafe/safe_examples
-stars: 17
+stars: 18
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AzkhA_PBys0" frameborder="0" allowfullscreen></iframe>

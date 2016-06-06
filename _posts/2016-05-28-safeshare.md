@@ -8,7 +8,7 @@ thumbnail: safeshare.png
 license: MIT
 license_link: https://github.com/wrnice/safeshare/blob/master/LICENSE
 github_repo: wrnice/safeshare
-stars: 1
+stars: 3
 ---
 
 ## A file sharing and text paste web application for the Safe Network
