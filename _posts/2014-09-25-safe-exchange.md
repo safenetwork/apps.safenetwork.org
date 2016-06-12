@@ -3,8 +3,8 @@ title: Safe Exchange
 website: http://safex.io/
 github: https://github.com/safex
 twitter: https://twitter.com/safe_exchange
-forum: http://safe.exchange/
-announcement: https://forum.safenetwork.io/t/safe-exchange-safex/1690
+forum: https://safe.exchange/
+announcement:
 author: Daniel Dabek
 thumbnail: safe-exchange.png
 license: GNU General Public License v3.0
