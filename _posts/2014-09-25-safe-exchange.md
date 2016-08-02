@@ -4,7 +4,6 @@ website: http://safex.io/
 github: https://github.com/safex
 twitter: https://twitter.com/safe_exchange
 forum: https://safe.exchange/
-announcement:
 author: Daniel Dabek
 thumbnail: safe-exchange.png
 license: GNU General Public License v3.0
