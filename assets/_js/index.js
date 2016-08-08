@@ -1,13 +1,13 @@
 echo.init({ offset: 500, throttle: 50 });
 
-var themes = [
-  {% for theme in site.posts %}
+var apps = [
+  {% for app in site.posts where %}
   {
-    "title": "{{ theme.title }}",
-    "date": "{{ theme.date }}",
-    "thumbnail": "/thumbnails/{{ theme.thumbnail }}",
-    "url": "{{ theme.url }}",
-    "stars": "{{ theme.stars }}"
+    "title": "{{ app.title }}",
+    "date": "{{ app.date }}",
+    "thumbnail": "/thumbnails/{{ app.thumbnail }}",
+    "url": "{{ app.url }}",
+    "stars": "{{ app.stars }}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ];

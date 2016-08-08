@@ -8,50 +8,35 @@ layout: default
   </section>
   <section>
     <h1>{{ page.title }}</h1>
-    <dl>
-      {% if page.author %}
-        <dt>Author:</dt>
-        <dd>{{ page.author }}</dd>
-      {% endif %}
-      {% if page.license %}
-        <dt>License:</dt>
-        <dd>{{ page.license }}</dd>
-      {% endif %}
-    </dl>
     <nav>
     {% if page.website %}
       <a class="btn" href="{{ page.website }}">
-        <i class="fa fa-home"></i> Website
-      </a>
-    {% endif %}
-    {% if page.download %}
-      <a class="btn" href="{{ page.download }}">
-        <i class="fa fa-download"></i> Download
-      </a>
-    {% endif %}
-    {% if page.github %}
-      <a class="btn" href="{{ page.github }}">
-        <i class="fa fa-github"></i> GitHub
+        <i class="fa fa-home"></i>&nbsp; Website
       </a>
     {% endif %}
     {% if page.twitter %}
       <a class="btn" href="{{ page.twitter }}">
-        <i class="fa fa-twitter"></i> Twitter
+        <i class="fa fa-twitter"></i>&nbsp; Twitter
       </a>
     {% endif %}
     {% if page.forum %}
       <a class="btn" href="{{ page.forum }}">
-        <i class="fa fa-comments"></i> Forum
+        <i class="fa fa-comments"></i>&nbsp; Forum
       </a>
     {% endif %}
-    {% if page.announcement %}
-      <a class="btn" href="{{ page.announcement }}">
-        <i class="fa fa-bullhorn"></i> Announcement
+    {% if page.github %}
+      <a class="btn" href="{{ page.github }}">
+        <i class="fa fa-github"></i>&nbsp; GitHub
       </a>
     {% endif %}
     {% if page.license_link %}
       <a class="btn" href="{{ page.license_link }}">
-        <i class="fa fa-file"></i> License
+        {{ page.license }} license
+      </a>
+    {% endif %}
+    {% if page.last_update %}
+      <a class="btn" href="{{ page.last_update }}">
+        <i class="fa fa-bullhorn"></i>&nbsp; Last update on {{ page.date | date_to_string }}
       </a>
     {% endif %}
     </nav>

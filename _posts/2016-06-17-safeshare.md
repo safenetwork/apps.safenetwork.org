@@ -1,12 +1,10 @@
 ---
 title: SafeShare
-download: http://safeshare.safenet
 github: https://github.com/wrnice/safeshare
-announcement: https://forum.safenetwork.io/t/poc-introducing-safeshare-a-file-sharing-and-pasting-webapp/9486
-author: nice
-thumbnail: safeshare.png
 license: MIT
 license_link: https://github.com/wrnice/safeshare/blob/master/LICENSE
+last_update: https://forum.safenetwork.io/t/poc-introducing-safeshare-a-file-sharing-and-pasting-webapp/9486/20
+thumbnail: safeshare.png
 github_repo: wrnice/safeshare
 stars: 3
 ---

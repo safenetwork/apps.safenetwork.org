@@ -6,14 +6,14 @@ function sort(method) {
   this[method]();
   var html = '';
 
-  for(var i = 0; i < themes.length; i++) {
-    if(!themes[i]) { continue; }
+  for(var i = 0; i < apps.length; i++) {
+    if(!apps[i]) { continue; }
 
     html += '<li>' +
-              '<a href="' + themes[i].url + '">' +
+              '<a href="' + apps[i].url + '">' +
                 '<img src="' + transparentImage + '"' +
-                      'data-echo="'+ themes[i].thumbnail +'">' +
-                '<div>' + themes[i].title + '</div>' +
+                      'data-echo="'+ apps[i].thumbnail +'">' +
+                '<div>' + apps[i].title + '</div>' +
               '</a>' +
             '</li>';
   }
@@ -24,36 +24,36 @@ function sort(method) {
 }
 
 function saveOrder() {
-  var themeTitles = themes.map(function(theme) { return theme.title; });
-  sessionStorage.setItem('order', JSON.stringify(themeTitles));
+  var appTitles = apps.map(function(app) { return app.title; });
+  sessionStorage.setItem('order', JSON.stringify(appTitles));
 }
 
 function loadOrder() {
   var newOrder = [];
-  var themeTitles = JSON.parse(sessionStorage.getItem('order'));
-  if(!themeTitles) { shuffle(); return; }
+  var appTitles = JSON.parse(sessionStorage.getItem('order'));
+  if(!appTitles) { shuffle(); return; }
 
-  themes.forEach(function(theme) {
-    newOrder[themeTitles.indexOf(theme.title)] = theme;
+  apps.forEach(function(app) {
+    newOrder[appTitles.indexOf(app.title)] = app;
   });
 
-  themes = newOrder;
+  apps = newOrder;
 }
 
 function shuffle() {
-  var currentIndex = themes.length, temporaryValue, randomIndex;
+  var currentIndex = apps.length, temporaryValue, randomIndex;
 
   while (0 !== currentIndex) {
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
-    temporaryValue = themes[currentIndex];
-    themes[currentIndex] = themes[randomIndex];
-    themes[randomIndex] = temporaryValue;
+    temporaryValue = apps[currentIndex];
+    apps[currentIndex] = apps[randomIndex];
+    apps[randomIndex] = temporaryValue;
   }
 }
 
 function alphabetical() {
-  themes.sort(function(a, b){
+  apps.sort(function(a, b){
     var titleA = a.title.toLowerCase();
     var titleB = b.title.toLowerCase();
     if(titleA < titleB) return -1;
@@ -63,7 +63,7 @@ function alphabetical() {
 }
 
 function latest() {
-  themes.sort(function(a, b){
+  apps.sort(function(a, b){
     if(a.date < b.date) return 1;
     if(a.date > b.date) return -1;
     return 0;
@@ -71,7 +71,7 @@ function latest() {
 }
 
 function popularity() {
-  themes.sort(function(a, b){
+  apps.sort(function(a, b){
     return b.stars - a.stars;
   });
 }

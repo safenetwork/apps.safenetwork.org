@@ -1,6 +1,6 @@
 require_relative 'utils'
 
-class Theme
+class App
   def initialize(file)
   	@file = file
   end

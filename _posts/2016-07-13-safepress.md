@@ -1,14 +1,13 @@
 ---
 title: SAFEpress
 website: http://safepress.io/
-github: https://github.com/theWebalyst/safepress
 twitter: https://twitter.com/safepress
 forum: https://groups.google.com/forum/#!forum/safepress
-announcement: https://forum.safenetwork.io/t/safepress-a-web-app-that-builds-websites-blogs-on-safe-network/4417
-author: Mark Hughes
-thumbnail: safepress.png
-license: GNU General Public License v3.0
+github: https://github.com/theWebalyst/safepress
+license: GPLv3
 license_link: https://github.com/theWebalyst/safepress/blob/master/LICENSE
+last_update: https://forum.safenetwork.io/t/safepress-status-updates/5471/14
+thumbnail: safepress.png
 github_repo: theWebalyst/safepress
 stars: 15
 ---

@@ -1,14 +1,11 @@
 ---
 title: Launcher Demo App
 website: https://maidsafe.readme.io/docs/install-demo-app
-download: https://github.com/maidsafe/safe_examples/releases
 github: https://github.com/maidsafe/safe_examples/tree/master/demo_app
-twitter: https://twitter.com/maidsafe
-announcement: https://forum.safenetwork.io/t/safe-network-test-7/10460
-author: MaidSafe
-thumbnail: launcher-demo-app.png
-license: GNU General Public License v3.0
+license: GPLv3
 license_link: https://github.com/maidsafe/safe_examples/blob/master/demo_app/COPYING
+last_update: https://forum.safenetwork.io/t/safe-network-test-7/10460
+thumbnail: launcher-demo-app.png
 github_repo: maidsafe/safe_examples
 stars: 19
 ---
