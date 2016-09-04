@@ -2,7 +2,7 @@
 title: Project Decorum
 website: http://www.project-decorum.com/
 twitter: https://twitter.com/Project_Decorum
-last_update: https://forum.safenetwork.io/t/project-decorum-crowdsale/8474/856
+last_update: https://safenetforum.org/t/project-decorum-crowdsale/8474/886
 thumbnail: project-decorum.png
 ---
 

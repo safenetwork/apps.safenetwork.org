@@ -4,10 +4,10 @@ website: https://maidsafe.readme.io/docs/install-demo-app
 github: https://github.com/maidsafe/safe_examples/tree/master/demo_app
 license: GPLv3
 license_link: https://github.com/maidsafe/safe_examples/blob/master/demo_app/COPYING
-last_update: https://forum.safenetwork.io/t/safe-network-test-7/10460
+last_update: https://safenetforum.org/t/safe-network-alpha-release/10687
 thumbnail: safe-demo-app.png
 github_repo: maidsafe/safe_examples
-stars: 19
+stars: 23
 ---
 
 ### Documentation
