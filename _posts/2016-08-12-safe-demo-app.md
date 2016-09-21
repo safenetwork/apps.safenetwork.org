@@ -7,7 +7,7 @@ license_link: https://github.com/maidsafe/safe_examples/blob/master/demo_app/COP
 last_update: https://safenetforum.org/t/safe-network-alpha-release/10687
 thumbnail: safe-demo-app.png
 github_repo: maidsafe/safe_examples
-stars: 23
+stars: 24
 ---
 
 ### Documentation
