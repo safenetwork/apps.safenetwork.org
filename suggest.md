@@ -1,14 +1,13 @@
 ---
 layout: page
-title: Contributing
-permalink: /contributing/
+title: Suggest an app
 ---
 
 By contributing to this website, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
-### Submitting an App
+### Suggesting an App
 
-Want to submit an app?
+Want to suggest an app?
 
 - [Fork this repository]({{ site.github }}/fork) on GitHub and clone your fork locally on your computer.
 - Create a new post in the `_posts` directory and fill out the relevant

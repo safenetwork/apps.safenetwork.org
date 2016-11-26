@@ -1,15 +1,17 @@
 ---
 title: SafeEditor
+description: SafeEditor allows you to edit your SAFE files directly from your browser (tested in Chrome and Firefox).
 github: https://github.com/DavidMtl/SafeEditor
 license: GPLv3
 license_link: https://github.com/DavidMtl/SafeEditor/blob/master/LICENSE
 last_update: https://safenetforum.org/t/safeeditor-mvp-edit-your-safe-files-directly-from-your-browser/11057
 thumbnail: safeeditor.png
+category: Alpha 1
 ---
 
-## SafeEditor MVP, edit your safe files directly from your browser
+## Edit your SAFE files directly from your browser
 
-[SafeEditor](http://safeeditor.davidmtl.safenet/#) (alpha network) is a safesite that allows you to edit your Safe APP files directly from your browser (tested in Chrome and Firefox).
+[SafeEditor](http://safeeditor.davidmtl.safenet) (alpha network) is a safesite that allows you to edit your Safe APP files directly from your browser (tested in Chrome and Firefox).
 
 ### How it works
 

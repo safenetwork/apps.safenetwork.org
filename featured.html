@@ -1,0 +1,25 @@
+---
+layout: page
+title: Featured apps
+---
+
+<div class="album text-muted">
+  <div class="container">
+    <div class="row">
+      {% for post in site.posts %}
+      {% if post.featured == true %}
+      <div class="card">
+        <a href="{{ post.url }}">
+          <img class="card-img-top img-fluid" src="/thumbnails/{{ post.thumbnail }}" alt="Card image cap">
+        </a>
+        <div class="card-block">
+          <h4 class="card-title">{{ post.title }}</h4>
+          <p class="card-text">{{ post.description }}</p>
+          <a href="{{ post.url }}" class="card-link">More info</a>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

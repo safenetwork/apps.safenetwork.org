@@ -1,27 +1,89 @@
 ---
 layout: default
+title: Recently updated apps
 ---
 
-<main class="index">
-  <nav class="sort-nav">
-    <span onclick="sort('alphabetical')">Alphabetical</span>
-    &bull;
-    <span onclick="sort('latest')">Latest</span>
-    &bull;
-    <span onclick="sort('popularity')">Popularity</span>
-    &bull;
-    <span onclick="sort('shuffle')">Shuffle</span>
-  </nav>
+<section class="jumbotron text-xs-center">
+  <div class="container">
+    <h1 class="jumbotron-heading">Alpha network</h1>
+    <p class="lead">Apps that are compatible with <strong>Alpha 1</strong>.</p>
+    <p>
+      <a href="https://github.com/maidsafe/safe_launcher/releases/tag/0.8.0" class="btn btn-outline-inverse">Download SAFE Launcher v0.8.0</a>
+    </p>
+  </div>
+</section>
 
-  <ul id="index-list">
-    {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">
-        <img src="/assets/transparent.png"
-             data-echo="/thumbnails/{{ post.thumbnail }}">
-        <div>{{ post.title }}</div>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
-</main>
+<div class="album">
+  <div class="container">
+    <div class="row">
+      {% for post in site.posts %}
+      {% if post.category == "Alpha 1" %}
+      <div class="card">
+        <h4 class="card-title text-xs-center"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        <a href="{{ post.url }}">
+          <img class="card-img-top img-fluid" src="/thumbnails/{{ post.thumbnail }}" alt="Card image cap">
+        </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<section class="jumbotron text-xs-center">
+  <div class="container">
+    <h1 class="jumbotron-heading">Test network</h1>
+    <p class="lead">Apps that are compatible with <strong>Test 11</strong>.</p>
+    <p>
+      <a href="https://github.com/maidsafe/safe_launcher/releases/tag/0.10.0" class="btn btn-outline-inverse">Download SAFE Launcher v0.10.0</a>
+    </p>
+  </div>
+</section>
+
+<div class="album">
+  <div class="container">
+    <div class="row">
+      {% for post in site.posts %}
+      {% if post.category == "Test 11" %}
+      <div class="card">
+        <h4 class="card-title text-xs-center"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        <a href="{{ post.url }}">
+          <img class="card-img-top img-fluid" src="/thumbnails/{{ post.thumbnail }}" alt="Card image cap">
+        </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<section class="jumbotron text-xs-center">
+  <div class="container">
+    <h1 class="jumbotron-heading">Work in progress</h1>
+    <p class="lead">Apps that are still in development.</p>
+  </div>
+</section>
+
+<div class="album">
+  <div class="container">
+    <div class="row">
+      {% for post in site.posts %}
+      {% if post.category == "WIP" %}
+      <div class="card">
+        <h4 class="card-title text-xs-center"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        <a href="{{ post.url }}">
+          <img class="card-img-top img-fluid" src="/thumbnails/{{ post.thumbnail }}" alt="Card image cap">
+        </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<footer class="text-muted">
+  <div class="container">
+    <p>To submit an app suggestion, <a href="https://github.com/safenetwork/apps.safenetwork.org/issues/new">open an issue</a> or create a pull request.</p>
+    <p>New to SAFE? Visit <a href="https://safenetwork.org">safenetwork.org</a> or <a href="https://maidsafe.net">maidsafe.net</a>.</p>
+  </div>
+</footer>

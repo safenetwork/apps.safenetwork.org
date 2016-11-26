@@ -2,8 +2,9 @@
 title: Project Decorum
 website: http://www.project-decorum.com/
 twitter: https://twitter.com/Project_Decorum
-last_update: https://safenetforum.org/t/project-decorum-crowdsale/8474/912
+last_update: https://safenetforum.org/t/project-decorum-crowdsale/8474/918
 thumbnail: project-decorum.png
+category: WIP
 ---
 
 ## A Decentralized Social Platform for the SAFE Network

@@ -1,10 +1,10 @@
 ---
 title: SAFE Browser
 github: https://github.com/joshuef/beaker
-last_update: https://forum.safedev.org/t/safe-browser-dev-updates-v0-3-5/169
-thumbnail: safe-beaker-browser.png
-github_repo: joshuef/beaker
-stars: 4
+last_update: https://safenetforum.org/t/safe-beaker-browser-updates-0-4-0/11214/35
+thumbnail: safe-browser.png
+category: Test 11
+featured: true
 ---
 
 ## A browser for the SAFE Network

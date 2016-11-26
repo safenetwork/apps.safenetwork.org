@@ -1,7 +1,3 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,42 +5,23 @@ layout: compress
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
-    <link href="{{ page.url | replace: 'index.html', '' | prepend: site.url }}" rel="canonical">
-
-    <meta property="og:title" content="{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}">
-    <meta property="og:description" content="{{ site.description }}">
     <meta property="og:url" content="{{ page.url | replace: 'index.html', '' | prepend: site.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="{{ '/assets/app.css' }}" rel="stylesheet">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
 
-    <!--[if lte IE 8]>
-      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.url }}">
     <link rel="icon" href="/assets/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css?t={{ site.time | date_to_xmlschema }}">
   </head>
   <body>
-    <header>
-      <a href="/">
-        <h1 id="logo">{{ site.title }}</h1>
-      </a>
-      <nav role="navigation">
-        <ul>
-          <li><a href="{{ '/contributing/' }}">Contributing</a></li>
-          &bull;
-          <li><a href="{{ site.github }}" target="_blank">GitHub</a></li>
-          &bull;
-          <li><a href="{{ '/feed.xml' }}">RSS</a></li>
-        </ul>
-      </nav>
-    </header>
+    {% include navigation.html %}
     {{ content }}
-    <script src="{{ '/assets/app.js' }}"></script>
   </body>
 </html>
