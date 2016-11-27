@@ -23,3 +23,9 @@
     padding: 2rem 0;
   }
 }
+
+@include media-breakpoint-down(xs) {
+  .hero-text {
+    font-size: 2rem;
+  }
+}

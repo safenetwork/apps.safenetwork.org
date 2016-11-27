@@ -27,3 +27,9 @@
     border-color: #fff;
   }
 }
+
+@include media-breakpoint-down(xs) {
+  .jumbotron-heading {
+    font-size: 2rem;
+  }
+}
