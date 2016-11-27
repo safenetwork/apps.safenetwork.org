@@ -13,12 +13,6 @@ serve: test-jekyll
 build: test-jekyll
 	@bundle exec jekyll build
 
-serve-production: test-jekyll
-	@JEKYLL_ENV=production jekyll serve
-
-build-production: test-jekyll
-	@JEKYLL_ENV=production jekyll build
-
 ###
 # Misc stuff:
 ###

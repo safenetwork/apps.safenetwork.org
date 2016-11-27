@@ -23,4 +23,4 @@ If you're not sure how to open a pull request, feel free to <a href="https://git
 
 ## Public domain
 
-This website is [dedicated to the public domain](https://github.com/safenetwork/apps.safenetwork.org/blob/gh-pages/LICENSE.md) under the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+This website is [dedicated to the public domain](https://github.com/safenetwork/apps.safenetwork.org/blob/master/LICENSE.md) under the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).

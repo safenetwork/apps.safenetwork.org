@@ -1,4 +1,3 @@
-# Site settings
 title: SAFE Network Apps
 description: A directory of apps that are compatible with the SAFE Network.
 url: "https://apps.safenetwork.org"
@@ -14,14 +13,12 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
 
-# Build settings
 markdown: kramdown
 kramdown:
   input: GFM
 sass:
   style: :compressed
 
-# Blog Settings
 permalink: /:title/
 defaults:
   -
