@@ -1,0 +1,31 @@
+.hero {
+  margin: 1rem 0;
+  padding: 2rem 0;
+  color: white;
+  background-color: #5592d7;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar + .hero {
+  margin-top: 0;
+}
+
+.hero-text {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+@include media-breakpoint-up('sm') {
+  .hero {
+    margin: 2rem 0;
+    padding: 2rem 0;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .hero-text {
+    font-size: 2rem;
+  }
+}

@@ -1,27 +1,79 @@
 ---
 layout: default
+title: Recently updated apps
 ---
 
-<main class="index">
-  <nav class="sort-nav">
-    <span onclick="sort('alphabetical')">Alphabetical</span>
-    &bull;
-    <span onclick="sort('latest')">Latest</span>
-    &bull;
-    <span onclick="sort('popularity')">Popularity</span>
-    &bull;
-    <span onclick="sort('shuffle')">Shuffle</span>
-  </nav>
+<section class="jumbotron text-xs-center">
+  <div class="container">
+    <h1 class="jumbotron-heading">SAFE Network apps</h1>
+    <p class="lead">Apps that are compatible with Alpha 1.</p>
+    <p>
+      <a href="https://github.com/maidsafe/safe_launcher/releases/tag/0.8.0" class="btn btn-outline-inverse">Download SAFE Launcher v0.8.0</a>
+    </p>
+  </div>
+</section>
 
-  <ul id="index-list">
-    {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">
-        <img src="/assets/transparent.png"
-             data-echo="/thumbnails/{{ post.thumbnail }}">
-        <div>{{ post.title }}</div>
-      </a>
-    </li>
+<div class="container">
+  <div class="row">
+    {% assign alpha_network = (site.posts|where:"category","Alpha 1") %}
+    {% for post in alpha_network %}
+    <div class="col-md-6 col-lg-4">
+      <div class="card">
+        <a href="{{ post.url }}">
+          <img class="card-img-top img-fluid" src="/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
+        </a>
+        <h4 class="card-title text-xs-center"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      </div>
+    </div>
     {% endfor %}
-  </ul>
-</main>
+  </div>
+</div>
+
+<section class="jumbotron text-xs-center">
+  <div class="container">
+    <h1 class="jumbotron-heading">SAFE Network apps</h1>
+    <p class="lead">Apps that are compatible with Test 11.</p>
+    <p>
+      <a href="https://github.com/maidsafe/safe_launcher/releases/tag/0.10.0" class="btn btn-outline-inverse">Download SAFE Launcher v0.10.0</a>
+    </p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="row">
+    {% assign test_network = (site.posts|where:"category","Test 11") %}
+    {% for post in test_network %}
+    <div class="col-md-6 col-lg-4">
+      <div class="card">
+        <a href="{{ post.url }}">
+          <img class="card-img-top img-fluid" src="/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
+        </a>
+        <h4 class="card-title text-xs-center"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<section class="jumbotron text-xs-center">
+  <div class="container">
+    <h1 class="jumbotron-heading">Work in progress</h1>
+    <p class="lead">Apps that are still in development.</p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="row">
+    {% assign work_in_progress = (site.posts|where:"category","WIP") %}
+    {% for post in work_in_progress %}
+    <div class="col-md-6 col-lg-4">
+      <div class="card">
+        <a href="{{ post.url }}">
+          <img class="card-img-top img-fluid" src="/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
+        </a>
+        <h4 class="card-title text-xs-center"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

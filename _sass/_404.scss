@@ -1,0 +1,26 @@
+#goog-fixurl ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#goog-fixurl form {
+  margin-top: 1rem;
+  @extend .form-inline;
+}
+
+#goog-fixurl .other-things {
+  display: none;
+}
+
+#goog-fixurl input[type="text"] {
+  @extend .form-control;
+  @extend .float-md-left;
+  margin-right: 0.5rem;
+}
+
+#goog-fixurl input[type="submit"] {
+  @extend .btn;
+  @include button-outline-variant(#1C6FAD);
+  color: white;
+}

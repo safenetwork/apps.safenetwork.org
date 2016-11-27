@@ -1,54 +1,45 @@
 ---
-layout: default
+layout: page
 ---
 
-<main class="post">
-  <section class="thumbnail-wrapper">
-    <img src="{{ page.thumbnail | prepend: '/thumbnails/' }}" class="thumbnail">
-  </section>
-  <section>
-    <h1>{{ page.title }}</h1>
-    <nav>
-    {% if page.website %}
-      <a class="btn" href="{{ page.website }}">
-        <i class="fa fa-home"></i>&nbsp; Website
-      </a>
-    {% endif %}
-    {% if page.twitter %}
-      <a class="btn" href="{{ page.twitter }}">
-        <i class="fa fa-twitter"></i>&nbsp; Twitter
-      </a>
-    {% endif %}
-    {% if page.forum %}
-      <a class="btn" href="{{ page.forum }}">
-        <i class="fa fa-comments"></i>&nbsp; Forum
-      </a>
-    {% endif %}
-    {% if page.github %}
-      <a class="btn" href="{{ page.github }}">
-        <i class="fa fa-github"></i>&nbsp; GitHub
-      </a>
-    {% endif %}
-    {% if page.license_link %}
-      <a class="btn" href="{{ page.license_link }}">
-        {{ page.license }} license
-      </a>
-    {% endif %}
-    {% if page.last_update %}
-      <a class="btn" href="{{ page.last_update }}">
-        <i class="fa fa-bullhorn"></i>&nbsp; Last update on {{ page.date | date_to_string }}
-      </a>
-    {% endif %}
-    </nav>
-  </section>
-  <div class="chevrons">
-    <i class="fa fa-chevron-left"
-       onclick="previous('{{ page.title }}')"></i>
-    <i class="fa fa-chevron-right"
-       onclick="next('{{ page.title }}')"></i>
+<div class="row" style="margin-bottom: 2rem">
+  <div class="col-lg-8">
+    <img src="{{ page.thumbnail | prepend: '/thumbnails/' }}" class="thumbnail img-fluid">
   </div>
-  <hr />
-  <article>
-    {{ content }}
-  </article>
-</main>
+  <div class="col-lg">
+    <div class="list-group">
+      {% if page.website %}
+        <a class="list-group-item list-group-item-action" href="{{ page.website }}">
+          <i class="fa fa-home fa-fw"></i>&nbsp; Website
+        </a>
+      {% endif %}
+      {% if page.twitter %}
+        <a class="list-group-item list-group-item-action" href="{{ page.twitter }}">
+          <i class="fa fa-twitter fa-fw"></i>&nbsp; Twitter
+        </a>
+      {% endif %}
+      {% if page.forum %}
+        <a class="list-group-item list-group-item-action" href="{{ page.forum }}">
+          <i class="fa fa-comments fa-fw"></i>&nbsp; Forum
+        </a>
+      {% endif %}
+      {% if page.github %}
+        <a class="list-group-item list-group-item-action" href="{{ page.github }}">
+          <i class="fa fa-github fa-fw"></i>&nbsp; GitHub
+        </a>
+      {% endif %}
+      {% if page.license_link %}
+        <a class="list-group-item list-group-item-action" href="{{ page.license_link }}">
+          <i class="fa fa-file-o fa-fw"></i>&nbsp; {{ page.license }} license
+        </a>
+      {% endif %}
+      {% if page.last_update %}
+        <a class="list-group-item list-group-item-action" href="{{ page.last_update }}">
+          <i class="fa fa-bullhorn fa-fw"></i>&nbsp; Last update on {{ page.date | date_to_string }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{{ content }}

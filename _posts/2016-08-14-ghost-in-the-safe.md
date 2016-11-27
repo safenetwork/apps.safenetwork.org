@@ -6,8 +6,6 @@ license: AGPLv3
 license_link: https://github.com/ligthyear/ghost-in-the-safe/blob/master/LICENSE
 last_update: https://safenetforum.org/t/wip-introducing-ghost-in-the-safe-publishing-blogging-webapp-for-safenetwork-experiment/9477/12
 thumbnail: ghost-in-the-safe.png
-github_repo: ligthyear/ghost-in-the-safe
-stars: 4
 ---
 
 ## Publishing/blogging webapp for SAFE Network experiment

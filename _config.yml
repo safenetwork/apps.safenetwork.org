@@ -1,26 +1,25 @@
 title: SAFE Network Apps
-description: A directory of the most popular SAFE Network apps
-markdown: kramdown
+description: A directory of apps that are compatible with the SAFE Network.
 url: "https://apps.safenetwork.org"
-github: "https://github.com/safenetwork/apps.safenetwork.org"
-
-permalink: /:title/
 
 exclude:
-  - CNAME
+  - README.md
+  - LICENSE.md
   - Gemfile
   - Gemfile.lock
-  - LICENSE.md
-  - README.md
+  - Makefile
 
 gems:
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sitemap
 
+markdown: kramdown
+kramdown:
+  input: GFM
 sass:
-  sass_dir: /assets/_sass
   style: :compressed
 
+permalink: /:title/
 defaults:
   -
     scope:
