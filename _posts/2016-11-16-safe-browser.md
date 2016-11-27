@@ -9,4 +9,8 @@ featured: true
 
 ## A browser for the SAFE Network
 
-**SAFE Browser** is a browser designed to open safe:// websites on the SAFE Network. It is a fork of the [Beaker Browser](https://beakerbrowser.com/).
+A browser designed to open `safe://` websites on the SAFE Network. It is a fork of [Beaker Browser](https://beakerbrowser.com/).
+
+#### Download
+
+- [Download SAFE Browser v0.4.0](https://github.com/joshuef/beaker/releases/tag/v0.4.0)

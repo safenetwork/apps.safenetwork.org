@@ -1,7 +1,5 @@
 ---
 title: SAFE Demo App
-description: This demo app demonstrates key features exposed by the SAFE Network (Public ID, Public Data and Private Data).
-website: https://maidsafe.readme.io/docs/install-demo-app
 github: https://github.com/maidsafe/safe_examples/tree/master/demo_app
 license: GPLv3
 license_link: https://github.com/maidsafe/safe_examples/blob/master/demo_app/COPYING
@@ -11,16 +9,17 @@ category: Alpha 1
 featured: true
 ---
 
-### Download
+Create your first SAFE website, store private data, host websites and share public data!
 
-* [Download **SAFE Demo App v0.6.0** on GitHub](https://github.com/maidsafe/safe_examples/releases/tag/0.6.0) (Alpha 1)
-* [Download **SAFE Demo App v0.6.2** on GitHub](https://github.com/maidsafe/safe_examples/releases/tag/0.10.1) (Test 11)
+#### Download
 
-### Documentation
+- [Download SAFE Demo App v0.6.0](https://github.com/maidsafe/safe_examples/releases/tag/0.6.0) (compatible with Alpha 1)
+- [Download SAFE Demo App v0.6.2](https://github.com/maidsafe/safe_examples/releases/tag/0.10.1) (compatible with Test 11)
 
-* [Install SAFE Demo App](https://maidsafe.readme.io/docs/install-demo-app)
-* [Using SAFE Demo App](https://maidsafe.readme.io/docs/demo-app)
+#### Documentation
 
-### Support
+- [Using SAFE Demo App](https://maidsafe.readme.io/docs/demo-app)
 
-* [Report issues on GitHub](https://github.com/maidsafe/safe_examples/issues)
+#### Support
+
+- [Report issues on GitHub](https://github.com/maidsafe/safe_examples/issues)

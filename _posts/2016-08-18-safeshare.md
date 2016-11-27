@@ -7,8 +7,8 @@ last_update: https://safenetforum.org/t/poc-introducing-safeshare-a-file-sharing
 thumbnail: safeshare.png
 ---
 
-## A file sharing and text paste web application for the Safe Network
+## A file sharing and text paste web app for the SAFE Network
 
-The main purpose of the application is to easily produce safe links to uploaded material, just as you would do in pastebin, imagebin or the like, and have the data live secure, permanent and encrypted in the Safe Network. Then you can share these links with your friends, collegues, developers mates... using existing communication means such as regular email, chat, websites... or inside safe using upcoming tools such as Decorum or Ghost in the Safe, or a much anticipated native Safe messaging tool!
+The main purpose of the application is to easily produce safe links to uploaded material, just as you would do in pastebin, imagebin or the like, and have the data live secure, permanent and encrypted in the SAFE Network. Then you can share these links with your friends, collegues, developers mates... using existing communication means such as regular email, chat, websites... or inside SAFE using upcoming tools such as Decorum or Ghost in the Safe, or a much anticipated native SAFE messaging tool!
 
-The UI and main functionality is derived from [Up1](https://github.com/Upload/Up1) (which also powers <https://share.riseup.net> btw) - and the Safe Network facing part is [Safenet](https://github.com/eblanshey/safenet) by [@eblanshey](https://safenetforum.org/users/eblanshey).
+The UI and main functionality is derived from [Up1](https://github.com/Upload/Up1) (which also powers <https://share.riseup.net> btw) - and the SAFE Network facing part is [Safenet](https://github.com/eblanshey/safenet) by [@eblanshey](https://safenetforum.org/users/eblanshey).

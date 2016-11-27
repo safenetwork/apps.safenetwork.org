@@ -21,7 +21,8 @@
     <link rel="stylesheet" href="/css/main.css?t={{ site.time | date_to_xmlschema }}">
   </head>
   <body>
-    {% include navigation.html %}
+    {% include nav.html %}
     {{ content }}
+    {% include footer.html %}
   </body>
 </html>

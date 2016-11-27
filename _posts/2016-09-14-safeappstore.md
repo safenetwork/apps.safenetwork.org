@@ -7,4 +7,4 @@ thumbnail: safeappstore.png
 category: WIP
 ---
 
-## A Peer-to-Peer Market for Decentralized Applications
+## A peer-to-peer market for decentralized apps

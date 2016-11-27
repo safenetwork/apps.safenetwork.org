@@ -1,25 +1,28 @@
+# Site settings
 title: SAFE Network Apps
-description: A directory of the most popular SAFE Network apps
-markdown: kramdown
+description: A directory of apps that are compatible with the SAFE Network.
 url: "https://apps.safenetwork.org"
-github: "https://github.com/safenetwork/apps.safenetwork.org"
-
-permalink: /:title/
 
 exclude:
-  - CNAME
+  - README.md
+  - LICENSE.md
   - Gemfile
   - Gemfile.lock
-  - LICENSE.md
-  - README.md
+  - Makefile
 
 gems:
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sitemap
 
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
 sass:
   style: :compressed
 
+# Blog Settings
+permalink: /:title/
 defaults:
   -
     scope:

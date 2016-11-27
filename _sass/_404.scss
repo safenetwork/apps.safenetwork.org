@@ -21,6 +21,6 @@
 
 #goog-fixurl input[type="submit"] {
   @extend .btn;
-  @include button-outline-variant($yarn-blue-darkest);
+  @include button-outline-variant(#1C6FAD);
   color: white;
 }
