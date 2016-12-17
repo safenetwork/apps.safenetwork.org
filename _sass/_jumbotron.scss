@@ -1,0 +1,35 @@
+.jumbotron {
+  color: white;
+  margin-bottom: 2rem;
+  background-color: #5592d7;
+  border-radius: 0;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.btn-outline-inverse {
+  color: #fff;
+  border-color: #fff;
+
+  &:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .jumbotron-heading {
+    font-size: 2rem;
+  }
+}
