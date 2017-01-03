@@ -10,4 +10,4 @@ As part of the [Decentralised Apps Hackathon and Unconference](http://www.dappha
 
 #### Live version
 
-You can access **noBackend Invoice** at [safe://invoice-app.nobackend-example](safe://invoice-app.nobackend-example/nobackend-examples/safenet/index.html) using [SAFE Browser v0.4.0](https://github.com/joshuef/beaker/releases/tag/v0.4.0).
+You can access **noBackend Invoice** at [safe://invoice-app.nobackend-example](safe://invoice-app.nobackend-example/nobackend-examples/safenet/index.html) using [SAFE Browser v0.4.2](https://github.com/joshuef/beaker/releases/tag/v0.4.2).

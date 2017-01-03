@@ -15,7 +15,7 @@ For now, only the connection establishment is done using the SAFE Network. The a
 
 #### Live version
 
-You can access the **SAFE Signaling Demo** at [safe://mediawebrtc.ben](safe://mediawebrtc.ben) using [SAFE Browser v0.4.0](https://github.com/joshuef/beaker/releases/tag/v0.4.0).
+You can access the **SAFE Signaling Demo** at [safe://mediawebrtc.ben](safe://mediawebrtc.ben) using [SAFE Browser v0.4.2](https://github.com/joshuef/beaker/releases/tag/v0.4.2).
 
 #### Tutorial
 

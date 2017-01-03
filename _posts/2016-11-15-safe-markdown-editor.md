@@ -11,7 +11,7 @@ The **SAFE Markdown Editor** lets you create and edit Markdown files. The files 
 
 #### Live version
 
-You can access the **SAFE Markdown Editor** at [safe://editor.safedev](safe://editor.safedev) using [SAFE Browser v0.4.0](https://github.com/joshuef/beaker/releases/tag/v0.4.0).
+You can access the **SAFE Markdown Editor** at [safe://editor.safedev](safe://editor.safedev) using [SAFE Browser v0.4.2](https://github.com/joshuef/beaker/releases/tag/v0.4.2).
 
 #### Tutorial
 
