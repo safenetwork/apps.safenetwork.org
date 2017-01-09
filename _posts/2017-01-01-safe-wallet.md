@@ -2,7 +2,7 @@
 title: SAFE Wallet
 website: https://bochaco.github.io/
 forum: https://safenetforum.org/t/introducing-safe-wallet-app/11764
-last_update: https://safenetforum.org/t/introducing-safe-wallet-app/11764/36
+last_update: https://safenetforum.org/t/introducing-safe-wallet-app/11764/60
 thumbnail: safe-wallet.png
 category: Test 11
 ---
