@@ -10,4 +10,4 @@ category: Alpha 1
 
 ## Edit your SAFE files directly from your browser
 
-[SafeEditor](http://safeeditor.davidmtl.safenet) (alpha network) is a safesite that allows you to edit your SAFE files directly from your browser (tested in Chrome and Firefox).
+SafeEditor is a safesite that allows you to edit your SAFE files directly from your browser (tested in Chrome and Firefox).
