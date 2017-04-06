@@ -9,6 +9,6 @@ category: Test 11
 
 A web app that aims to provide an extremely simple UX to manage credit card numbers, passwords, safecoin/altcoins wallet(s), and many other personal information, so they can be handy, easy to maintain, and safely stored.
 
-#### Live version
+<!-- #### Live version
 
-You can access **SAFE Wallet** at [safe://safewallet.wow](safe://safewallet.wow) using [SAFE Browser v0.4.2](https://github.com/joshuef/beaker/releases/tag/v0.4.2).
+You can access **SAFE Wallet** at [safe://safewallet.wow](safe://safewallet.wow) using [SAFE Browser v0.4.3](https://github.com/joshuef/beaker/releases/tag/v0.4.3). -->

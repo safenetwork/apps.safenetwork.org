@@ -8,6 +8,6 @@ category: Test 11
 
 A web version of MaidSafe's demo app. See [this tutorial video](https://www.youtube.com/watch?v=Ai8Rc0ptFcM) for more info.
 
-#### Live version
+<!-- #### Live version
 
-You can access **Demo App by SAFE-FS** at [safe://demo.wom](safe://demo.wom) using [SAFE Browser v0.4.2](https://github.com/joshuef/beaker/releases/tag/v0.4.2).
+You can access **Demo App by SAFE-FS** at [safe://demo.wom](safe://demo.wom) using [SAFE Browser v0.4.3](https://github.com/joshuef/beaker/releases/tag/v0.4.3). -->

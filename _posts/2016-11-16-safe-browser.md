@@ -13,4 +13,4 @@ A browser designed to open `safe://` websites on the SAFE Network. It is a fork 
 
 #### Download
 
-- [Download SAFE Browser v0.4.0](https://github.com/joshuef/beaker/releases/tag/v0.4.0)
+- [Download SAFE Browser v0.4.3](https://github.com/joshuef/beaker/releases/tag/v0.4.3)

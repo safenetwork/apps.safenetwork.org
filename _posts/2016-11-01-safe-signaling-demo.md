@@ -13,9 +13,9 @@ The **SAFE Signaling Demo** lets you set up a room and share the room name with 
 
 For now, only the connection establishment is done using the SAFE Network. The actual connection is either peer-to-peer ([STUN](https://en.wikipedia.org/wiki/STUN)) or via a [TURN](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT) server. At some point later, we will integrate this functionality directly in [CRUST](https://github.com/maidsafe/crust).
 
-#### Live version
+<!-- #### Live version
 
-You can access the **SAFE Signaling Demo** at [safe://mediawebrtc.ben](safe://mediawebrtc.ben) using [SAFE Browser v0.4.2](https://github.com/joshuef/beaker/releases/tag/v0.4.2).
+You can access the **SAFE Signaling Demo** at [safe://mediawebrtc.ben](safe://mediawebrtc.ben) using [SAFE Browser v0.4.3](https://github.com/joshuef/beaker/releases/tag/v0.4.3). -->
 
 #### Tutorial
 
