@@ -5,7 +5,7 @@ title: Featured apps
 
 <div class="container">
   <div class="row">
-    {% assign featured_apps = (site.posts|where:"featured","true") %}
+    {% assign featured_apps = site.posts | where:"featured","true" %}
     {% for post in featured_apps %}
     <div class="col-md-6 col-lg-4">
       <div class="card">

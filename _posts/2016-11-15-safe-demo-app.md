@@ -6,7 +6,6 @@ license_link: https://github.com/maidsafe/safe_examples/blob/master/demo_app/COP
 last_update: https://safenetforum.org/t/maidsafe-dev-update-november-15-2016/11747
 thumbnail: safe-demo-app.png
 category: Test 11
-featured: true
 ---
 
 Create your first SAFE website, store private data, host websites and share public data!

@@ -15,7 +15,7 @@ title: Recently updated apps
 
 <div class="container">
   <div class="row">
-    {% assign alpha_network = (site.posts|where:"category","Alpha 1") %}
+    {% assign alpha_network = site.posts | where:"category","Alpha 1" %}
     {% for post in alpha_network %}
     <div class="col-md-6 col-lg-4">
       <div class="card">
@@ -32,16 +32,17 @@ title: Recently updated apps
 <section class="jumbotron text-center">
   <div class="container">
     <h1 class="jumbotron-heading">SAFE Network apps</h1>
-    <p class="lead">Apps that are compatible with Test 11.</p>
-    <!-- <p>
-      <a href="https://github.com/maidsafe/safe_launcher/releases/tag/0.10.0" class="btn btn-outline-inverse">Download SAFE Launcher v0.10.0</a>
-    </p> -->
+    <p class="lead">Apps that are compatible with Test 19.</p>
+    <p>
+      <a href="https://safenetforum.org/t/maidsafe-dev-update-august-31-2017-test-19/15974" class="btn btn-outline-inverse">Participate in Test 19</a>
+      <!-- <a href="https://github.com/maidsafe/safe_launcher/releases/tag/0.10.0" class="btn btn-outline-inverse">Download SAFE Launcher v0.10.0</a> -->
+    </p>
   </div>
 </section>
 
 <div class="container">
   <div class="row">
-    {% assign test_network = (site.posts|where:"category","Test 11") %}
+    {% assign test_network = site.posts | where:"category","Test 19" %}
     {% for post in test_network %}
     <div class="col-md-6 col-lg-4">
       <div class="card">
@@ -64,7 +65,7 @@ title: Recently updated apps
 
 <div class="container">
   <div class="row">
-    {% assign work_in_progress = (site.posts|where:"category","WIP") %}
+    {% assign work_in_progress = site.posts | where:"category","WIP" %}
     {% for post in work_in_progress %}
     <div class="col-md-6 col-lg-4">
       <div class="card">

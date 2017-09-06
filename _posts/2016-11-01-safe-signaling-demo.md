@@ -4,7 +4,6 @@ github: https://github.com/maidsafe/safe_examples/tree/master/webrtc_app
 last_update: https://safenetforum.org/t/maidsafe-dev-update-november-1-2016/11672
 thumbnail: safe-signaling-demo.png
 category: Test 11
-featured: true
 ---
 
 Instead of using a centralized video chat service, such as Skype or Google Hangouts – who can track your location, what you are saying, and to whom, you can use the SAFE Network as a secure channel to exchange connectivity information to establish direct peer-to-peer WebRTC connections.

@@ -9,7 +9,7 @@ exclude:
   - Gemfile.lock
   - Makefile
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
 
