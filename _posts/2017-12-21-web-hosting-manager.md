@@ -11,4 +11,6 @@ featured: true
 
 Manage web hosted contents in the SAFE Network using the Web Hosting Manager. Create services/websites and upload web content that can be hosted in the network. The hosted services can be viewed using the SAFE Browser.
 
-##### [Download Web Hosting Manager v0.4.4](https://github.com/maidsafe/safe_examples/releases/tag/0.16.0)
+#### Download
+
+- [Download Web Hosting Manager v0.4.4](https://github.com/maidsafe/safe_examples/releases/tag/0.16.0)

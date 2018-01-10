@@ -13,4 +13,6 @@ featured: true
 
 Browse public content and web applications in the SAFE Network using SAFE Browser. SAFE Authenticator is integrated with the SAFE Browser for managing user accounts in the SAFE Network.
 
-##### [Download SAFE Browser v0.8.1](https://github.com/maidsafe/safe_browser/releases/tag/0.8.1)
+#### Download
+
+- [Download SAFE Browser v0.8.1](https://github.com/maidsafe/safe_browser/releases/tag/0.8.1)
