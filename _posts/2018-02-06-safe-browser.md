@@ -3,7 +3,7 @@ title: SAFE Browser
 github: https://github.com/maidsafe/safe_browser
 license: MIT
 license_link: https://github.com/maidsafe/safe_browser/blob/master/BEAKER_LICENSE.md
-last_update: https://safenetforum.org/t/maidsafe-dev-update-december-21-2017/19433
+last_update: https://safenetforum.org/t/safe-browser-v0-9-0-release/21371
 thumbnail: safe-browser.png
 category: Alpha 2
 featured: true
@@ -15,4 +15,4 @@ Browse public content and web applications in the SAFE Network using SAFE Browse
 
 #### Download
 
-- [Download SAFE Browser v0.8.1](https://github.com/maidsafe/safe_browser/releases/tag/0.8.1)
+- [Download SAFE Browser v0.9.0](https://github.com/maidsafe/safe_browser/releases/tag/0.9.0)
