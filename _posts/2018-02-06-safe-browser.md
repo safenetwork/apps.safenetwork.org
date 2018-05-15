@@ -15,4 +15,4 @@ Browse public content and web applications in the SAFE Network using SAFE Browse
 
 #### Download
 
-- [Download SAFE Browser v0.10.1](https://github.com/maidsafe/safe_browser/releases/tag/0.10.1)
+- [Download SAFE Browser v0.10.2](https://github.com/maidsafe/safe_browser/releases/tag/0.10.2)
