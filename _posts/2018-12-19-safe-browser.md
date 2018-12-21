@@ -9,7 +9,7 @@ category: Alpha 2
 featured: true
 ---
 
-## A browser for the SAFE Network
+## The SAFE Network’s browser
 
 Browse public content and web applications on the SAFE Network (Alpha 2) using the SAFE Browser.  
 SAFE Authenticator is integrated with the SAFE Browser for creating and managing SAFE accounts.

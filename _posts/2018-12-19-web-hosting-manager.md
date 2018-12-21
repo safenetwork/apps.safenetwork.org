@@ -9,6 +9,8 @@ category: Alpha 2
 featured: true
 ---
 
+## Create your own SAFE website!
+
 Manage web hosted contents on the SAFE Network using the Web Hosting Manager. Create services/websites and upload web content that can be hosted on the network. The hosted services can be viewed using the SAFE Browser.
 
 #### [Download Web Hosting Manager](https://github.com/maidsafe/safe-web-hosting-manager-electron/releases/latest)
