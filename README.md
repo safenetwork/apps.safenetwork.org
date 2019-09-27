@@ -1,6 +1,10 @@
 # apps.safenetwork.org
 
-> A directory of apps that are compatible with the SAFE Network.
+> This repository contains the source files for [apps.safenetwork.org](https://apps.safenetwork.org).
+
+A directory of apps that are compatible with the SAFE Network
+
+The SAFE Network is a secure, decentralized P2P network being developed by [MaidSafe](https://github.com/maidsafe).
 
 ## Contributing
 
@@ -19,8 +23,8 @@ Want to submit an app?
 
 \* You should ensure you have [Bundler](https://bundler.io/) installed.
 
-If you're not sure how to open a pull request, feel free to <a href="https://github.com/safenetwork/apps.safenetwork.org/issues/new">open an issue</a> instead.
+If you're not sure how to open a pull request, feel free to [open an issue](https://github.com/safenetwork/apps.safenetwork.org/issues/new) instead.
 
 ## Public domain
 
-This website is [dedicated to the public domain](https://github.com/safenetwork/apps.safenetwork.org/blob/master/LICENSE.md) under the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+This website is [dedicated to the public domain](https://github.com/safenetwork/apps.safenetwork.org/blob/master/LICENSE) under the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).

@@ -18,4 +18,4 @@ Want to submit an app?
 
 \* You should ensure you have [Bundler](https://bundler.io/) installed.
 
-If you're not sure how to open a pull request, feel free to <a href="https://github.com/safenetwork/apps.safenetwork.org/issues/new">open an issue</a> instead.
+If you're not sure how to open a pull request, feel free to [open an issue](https://github.com/safenetwork/apps.safenetwork.org/issues/new) instead.
