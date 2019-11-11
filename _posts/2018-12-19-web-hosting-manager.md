@@ -6,7 +6,7 @@ license_link: https://github.com/maidsafe/safe-web-hosting-manager-electron/blob
 last_update: https://safenetforum.org/t/safe-browser-v0-11-0-release/26792
 thumbnail: web-hosting-manager.png
 category: Alpha 2
-featured: true
+featured: false
 ---
 
 ## Create your own SAFE website!

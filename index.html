@@ -5,7 +5,7 @@ layout: default
 <section class="jumbotron text-center">
   <div class="container">
     <h1 class="jumbotron-heading">SAFE Network apps</h1>
-    <p class="lead">Apps that are compatible with Alpha 2.</p>
+    <p class="lead">Apps that are compatible with the Shared Vault Network.</p>
     <p>
       <a href="https://safenetwork.org/downloads/" class="btn btn-outline-inverse">Download SAFE Browser</a>
     </p>
@@ -14,8 +14,8 @@ layout: default
 
 <div class="container">
   <div class="row">
-    {% assign alpha_network = site.posts | where:"category","Alpha 2" %}
-    {% for post in alpha_network %}
+    {% assign shared_vault_network = site.posts | where:"category","Shared Vault" %}
+    {% for post in shared_vault_network %}
     <div class="col-md-6 col-lg-4">
       <div class="card">
         <a href="{{ post.url }}">
@@ -27,32 +27,6 @@ layout: default
     {% endfor %}
   </div>
 </div>
-
-<!-- <section class="jumbotron text-center">
-  <div class="container">
-    <h1 class="jumbotron-heading">SAFE Network apps</h1>
-    <p class="lead">Apps that are compatible with Test 19.</p>
-    <p>
-      <a href="https://safenetforum.org/t/maidsafe-dev-update-august-31-2017-test-19/15974" class="btn btn-outline-inverse">Participate in Test 19</a>
-    </p>
-  </div>
-</section>
-
-<div class="container">
-  <div class="row">
-    {% assign test_network = site.posts | where:"category","Test 19" %}
-    {% for post in test_network %}
-    <div class="col-md-6 col-lg-4">
-      <div class="card">
-        <a href="{{ post.url }}">
-          <img class="card-img-top img-fluid" src="/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
-        </a>
-        <h4 class="card-title text-center"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div> -->
 
 <section class="jumbotron text-center">
   <div class="container">

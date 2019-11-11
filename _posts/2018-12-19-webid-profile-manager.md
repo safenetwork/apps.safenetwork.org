@@ -6,7 +6,7 @@ license_link: https://github.com/maidsafe/safe-web-id-manager-js/blob/master/LIC
 last_update: https://safenetforum.org/t/safe-browser-v0-11-0-release/26792
 thumbnail: webid-profile-manager.png
 category: Alpha 2
-featured: true
+featured: false
 ---
 
 ## Create your WebID(s) with this
