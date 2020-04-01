@@ -5,7 +5,7 @@ layout: default
 <section class="jumbotron text-center">
   <div class="container">
     <h1 class="jumbotron-heading">SAFE Network apps</h1>
-    <p class="lead">Apps that are compatible with the Shared Vault Network.</p>
+    <p class="lead">Apps that are compatible with the Shared Section Network.</p>
     <p>
       <a href="https://safenetwork.org/downloads/" class="btn btn-outline-inverse">Download SAFE Browser</a>
     </p>
@@ -14,8 +14,8 @@ layout: default
 
 <div class="container">
   <div class="row">
-    {% assign shared_vault_network = site.posts | where:"category","Shared Vault" %}
-    {% for post in shared_vault_network %}
+    {% assign shared_section_network = site.posts | where:"category","Shared Section" %}
+    {% for post in shared_section_network %}
     <div class="col-md-6 col-lg-4">
       <div class="card">
         <a href="{{ post.url }}">
